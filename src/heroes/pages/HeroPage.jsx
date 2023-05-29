@@ -25,7 +25,7 @@ export const HeroPage = () => {
 					/>
 				</div>
 				<div className='container col-8 text-center'>
-					<h3 className='text-center'>{hero.superhero}</h3>
+					<h3 className='text-center fw-bold'>{hero.superhero}</h3>
 					<ul className='list-group list-group-flush mt-3'>
 						<li className='list-group-item mt-3'>
 							<b>Alter ego:</b> {hero.alter_ego}
