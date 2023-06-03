@@ -37,10 +37,11 @@ export const HeroPage = () => {
 							<b>First appearance:</b> {hero.first_appearance}
 						</li>
 					</ul>
-					<h5 className='mt-5'>Characters</h5>
+					<h5 className='fw-bold mt-5'>Characters:</h5>
+					<hr />
 					<p className='mt-2'>{hero.characters}</p>
 					<button
-						className='btn btn-outline-primary mt-5'
+						className='btn btn-outline-dark mt-5'
 						onClick={onNavigateBack}
 					>
 						Back
