@@ -17,12 +17,12 @@ export const LoginPage = () => {
 	};
 
 	return (
-		<div className='container mt-5'>
-			<h1>Login</h1>
+		<div className='container mt-5 text-center'>
+			<h1 className='mb-5'>Login</h1>
 			<hr />
 
 			<button
-				className='btn btn-primary'
+				className='btn btn-dark mt-5'
 				onClick={onLogin}
 			>
 				Login
